@@ -12,9 +12,13 @@ console.log(name);
 //end-variable
 
 //start const
-
+const interestRate = 0.3;
+//interestRate = 1;// Error: Assignment to constant variable 
+console.log(interestRate); 
 
 //end const
+
+
 function greeet(name, lastname) {
     console.log('hello ' + name + ' ' + lastname);
 }
