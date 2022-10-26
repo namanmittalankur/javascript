@@ -18,6 +18,18 @@ console.log(interestRate);
 
 //end const
 
+// start primitive types
+let name1 = 'Naman'; // String literal
+let age = 9 // number literal
+let isApproved = false ; // boolean literal
+//Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. 
+//Undefined: It means the value does not exist in the compiler.
+let firstName = undefined;
+let selectedColor = null;
+
+
+
+// end primitive types
 
 function greeet(name, lastname) {
     console.log('hello ' + name + ' ' + lastname);
