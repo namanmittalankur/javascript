@@ -100,3 +100,15 @@ console.log(x);
 console.log(--x);
 console.log(x);
 
+//Assignment operator
+
+let A = 10;
+
+//exmpl 1
+A = A+5;  //False method
+A += 5;  //True method
+
+//exmpl 2
+
+A = A*5; //False method
+A *=5; //True method
