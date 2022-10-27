@@ -112,3 +112,30 @@ A += 5;  //True method
 
 A = A*5; //False method
 A *=5; //True method
+
+//comparizon operators
+
+x = 1;
+
+console.log(x > 0); //true
+console.log(x >= 1); //true
+console.log(x < 1); //false
+console.log(x <= 1); //true
+
+ //Equality
+
+ console.log(x === 1);// true 
+ console.log(x == 1);// true
+ console.log(x !== 1);//false
+ console.log(x != 1);//false
+
+ //difference between === and ==
+
+ //===: it compares strictly
+
+//==: it compares normal
+
+//exmpl 1
+
+console.log('nothing' === 0); //false
+console.log('nothing' == 0); // true
