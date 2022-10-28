@@ -146,3 +146,20 @@ let points = 110;
 let type = points > 100 ? 'gold' : 'silver';
 
 console.log(type);
+
+//logical operators
+
+//logical or (||)
+//returns TRUE if both operands are TRUE
+console.log(true && true);
+
+let highincom = true;
+let goodcreditscore = true;
+let eligibleforloan = highincom || goodcreditscore;
+
+console.log('Eligible: ', eligibleforloan);
+
+//not operator (!)
+
+let applicationrefused = !eligibleforloan;
+console.log('application refused: ', applicationrefused);
