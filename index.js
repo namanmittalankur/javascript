@@ -129,13 +129,11 @@ console.log(x <= 1); //true
  console.log(x !== 1);//false
  console.log(x != 1);//false
 
- //difference between === and ==
+//strict equality (type + value)
+console.log('1' === 1); //false
+console.log(1 = 1);// true
 
- //===: it compares strictly
-
-//==: it compares normal
-
-//exmpl 1
-
-console.log('nothing' === 0); //false
-console.log('nothing' == 0); // true
+//lose equality(value)
+console.log(1 == 1); // true
+console.log('1' = 1);// true
+console.log(true = 1);//true
