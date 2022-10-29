@@ -163,3 +163,30 @@ console.log('Eligible: ', eligibleforloan);
 
 let applicationrefused = !eligibleforloan;
 console.log('application refused: ', applicationrefused);
+
+//logical operators with non booleans
+
+//falsy (false)
+//undefined
+//null
+//0
+//false
+//''
+//not a number
+
+//(undefined
+//null
+//0
+//false
+//''
+//not a number) these all things are considered as falsy
+
+//anuthing that's not falsy is truthy
+
+// short circuiting
+
+let usercolor = undefined;
+let defaultcolor = 'blue';
+let currentcolor = usercolor || defaultcolor;
+
+console.log(currentcolor);
