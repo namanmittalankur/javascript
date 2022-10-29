@@ -208,3 +208,9 @@ mypermission = mypermission | writepermission;
 let message = (mypermission & readpermission) ? 'yes': 'no';
 
 console.log(message);
+
+// operator precedence
+
+let X = (2+4) * 8;
+
+console.log(X);
