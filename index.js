@@ -190,3 +190,21 @@ let defaultcolor = 'blue';
 let currentcolor = usercolor || defaultcolor;
 
 console.log(currentcolor);
+
+//bitwise operator
+
+//read, write, execute
+//0000010
+//00000010
+//00000001
+
+const readpermission = 4;
+const writepermission = 2;
+const executepermission = 1;
+
+let mypermission = 0;
+mypermission = mypermission | writepermission;
+
+let message = (mypermission & readpermission) ? 'yes': 'no';
+
+console.log(message);
