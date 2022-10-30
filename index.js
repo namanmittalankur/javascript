@@ -302,22 +302,32 @@ do{
 
 //exmpl-1
 
-index = 0;
-while (1 < 5) {
-    console.log(1);
+//index = 0;
+//while (1 < 5) {
+ //   console.log(1);
     //we forgot to i++
-}
+//}
 
 //exmpl-2
 
-while(true) {
-}
+//while(true) {
+//}
 
 //exmpl-3
 
-X = 0;
-do {
+//X = 0;
+//do {
     //x++;
-} while (x > 5);
+//} while (x > 5);
 
-for (let index = 0; index > 5;);
+//for (let index = 0; index > 5;);
+
+//for-in
+
+person = {
+    name: 'naman',
+    age: 9
+};
+
+for(let key in person)
+console.log(key);
