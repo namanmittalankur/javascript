@@ -16,14 +16,14 @@ console.log(name);
 //start const
 const interestRate = 0.3;
 //interestRate = 1;// Error: Assignment to constant variable 
-console.log(interestRate); 
+console.log(interestRate);
 
 //end const
 
 // start primitive types
 let name1 = 'Naman'; // String literal
 let age = 9 // number literal
-let isApproved = false ; // boolean literal
+let isApproved = false; // boolean literal
 //Null: It is the intentional absence of the value. It is one of the primitive values of JavaScript. 
 //Undefined: It means the value does not exist in the compiler.
 let firstName = undefined;
@@ -31,7 +31,7 @@ let selectedColor = null;
 // end primitive types
 
 // start objects
- // Objects is a variable which has propeties like person has a name and a age. 
+// Objects is a variable which has propeties like person has a name and a age. 
 
 let person = {
     name: 'naman', age: 9
@@ -90,7 +90,7 @@ let y = 3;
 //console.log(x/y);
 //console.log(x%Y);
 //console.log(x**y);
- 
+
 //Increment (++)
 console.log(x++);
 console.log(x);
@@ -105,13 +105,13 @@ console.log(x);
 let A = 10;
 
 //exmpl 1
-A = A+5;  //False method
+A = A + 5;  //False method
 A += 5;  //True method
 
 //exmpl 2
 
-A = A*5; //False method
-A *=5; //True method
+A = A * 5; //False method
+A *= 5; //True method
 
 //comparizon operators
 
@@ -122,12 +122,12 @@ console.log(x >= 1); //true
 console.log(x < 1); //false
 console.log(x <= 1); //true
 
- //Equality
+//Equality
 
- console.log(x === 1);// true 
- console.log(x == 1);// true
- console.log(x !== 1);//false
- console.log(x != 1);//false
+console.log(x === 1);// true 
+console.log(x == 1);// true
+console.log(x !== 1);//false
+console.log(x != 1);//false
 
 //strict equality (type + value)
 console.log('1' === 1); //false
@@ -203,24 +203,24 @@ const executepermission = 1;
 let mypermission = 0;
 mypermission = mypermission | writepermission;
 
-let message = (mypermission & readpermission) ? 'yes': 'no';
+let message = (mypermission & readpermission) ? 'yes' : 'no';
 
 console.log(message);
 
 // operator precedence
 
-let X = (2+4) * 8;
+let X = (2 + 4) * 8;
 
 console.log(X);
 
 //swapping variables
 
- let a = 'red';
- let b = 'blue';
+let a = 'red';
+let b = 'blue';
 
- let c = a;
- a=b;
- b=c;
+let c = a;
+a = b;
+b = c;
 
 console.log(a, b);
 
@@ -236,26 +236,39 @@ console.log(a, b);
 let hour = 0;
 
 if (hour >= 6 && hour < 12) {
-    console.log('goodmorning!'); 
+    console.log('goodmorning!');
 }
 else if (hour >= 12 && hour < 18) {
-   console.log('goodafternoon!');
+    console.log('goodafternoon!');
 }
-else if(hour >= 18 && hour < 23) {
-  console.log('goodnight');
+else if (hour >= 18 && hour < 23) {
+    console.log('goodnight');
 }
 else
-console.log('happymidnight');
+    console.log('happymidnight');
 
 //switch...case
 
+//exmpl-1
 hour = 5;
 
 switch (hour) {
- case 6:
-    console.log('five');
-    break;
-default:
-    console.log('default');
- break;
+    case 6:
+        console.log('five');
+        break;
+    default:
+        console.log('default');
+        break;
+}
+
+//exmpl-2
+
+name = 'naman';
+
+switch (name) {
+    case 'naman':
+        console.log('name: naman');
+        break;
+    default:
+        console.log('I do not know');
 }
