@@ -272,3 +272,12 @@ switch (name) {
     default:
         console.log('I do not know');
 }
+
+//forloop
+for(let index =1; index <= 5; index++) {
+    if(index % 2 !== 0) console.log(index);
+}
+
+for(let index = 5; index >= 1; index--) {
+    if(index % 2 !== 0) console.log(index);
+}
