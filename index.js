@@ -139,7 +139,6 @@ console.log('1' == 1);// true
 console.log(true == 1);//true
 
 //ternary operator
-
 //if a customer has more than 100 points, they are 'gold' customer, otherwise, they are 'silver' customer.
 
 let points = 110;
@@ -147,10 +146,10 @@ let type = points > 100 ? 'gold' : 'silver';
 
 console.log(type);
 
-//logical operators
-
-//logical or (||)
-//returns TRUE if both operands are TRUE
+// Logical operators: &&, ||, !
+// Logical AND (&&) -> returns TRUE if both operands are TRUE
+// Logical OR (||) -> returns TRUE if either of the operands are TRUE
+// Logical NOT (!) -> returns TRUE if operand is FALSE
 console.log(true && true);
 
 let highincom = true;
@@ -164,24 +163,19 @@ console.log('Eligible: ', eligibleforloan);
 let applicationrefused = !eligibleforloan;
 console.log('application refused: ', applicationrefused);
 
-//logical operators with non booleans
+// logical operators with non-booleans
 
-//falsy (false)
-//undefined
-//null
-//0
-//false
-//''
-//not a number
+// falsy (false)
+// undefined
+// null
+// 0
+// false
+// ''
+// not a number
 
-//(undefined
-//null
-//0
-//false
-//''
-//not a number) these all things are considered as falsy
+// (undefined, null, 0, false, '', not a number->NaN) these all things are considered as falsy
 
-//anuthing that's not falsy is truthy
+// anything that's not falsy is truthy
 
 // short circuiting
 
@@ -191,12 +185,16 @@ let currentcolor = usercolor || defaultcolor;
 
 console.log(currentcolor);
 
-//bitwise operator
+//bitwise operator-> &, |, !
 
-//read, write, execute
-//0000010
-//00000010
-//00000001
+//     1 ->   1  -> 2^0 * 1
+//     2 ->  10  -> 2^1 * 1 + 2^0 * 0
+//     3 ->  11  -> 2^1 * 1 + 2^0 * 1
+//     4 -> 100  -> 2^2 * 1 + 2^1 * 0 + 2^0 * 1
+
+// 1 & 1 = 1 , 1 & 0 = 0, 0 & 1=0, 0 & 0=0
+// 1 | 1 = 1 , 1 | 0 = 0, 0 | 1=0, 0 | 0=0
+// !1 = 0 ,  !0 = 1
 
 const readpermission = 4;
 const writepermission = 2;
