@@ -287,5 +287,13 @@ for(let index = 5; index >= 1; index--) {
 let index = 0;
 while(index <= 5) {
     if (index % 2 !== 0) console.log(index);
-    index++
+    index++;
 }
+
+//do-while loops
+
+index = 0;
+do{
+    if (index % 2 !== 0) console.log(index);
+    index++;
+} while (index <= 5);
