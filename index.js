@@ -297,3 +297,27 @@ do{
     if (index % 2 !== 0) console.log(index);
     index++;
 } while (index <= 5);
+
+//infinite loops
+
+//exmpl-1
+
+index = 0;
+while (1 < 5) {
+    console.log(1);
+    //we forgot to i++
+}
+
+//exmpl-2
+
+while(true) {
+}
+
+//exmpl-3
+
+X = 0;
+do {
+    //x++;
+} while (x > 5);
+
+for (let index = 0; index > 5;);
