@@ -324,10 +324,10 @@ do{
 
 //for-in
 
-person = {
+const person2 = {
     name: 'naman',
     age: 9
 };
 
-for(let key in person)
-console.log(key);
+for(let key in person2)
+console.log(key, person2[key]);
