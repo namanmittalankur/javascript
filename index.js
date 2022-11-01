@@ -336,5 +336,15 @@ console.log(key, person2[key]);
 
 const colors =  ['red', 'blue', 'green'];
 
-for (let color of colors)
+for (const index in colors) {
+    console.log(index, colors[index])
+}
+
+//instead of above for-in use below for-of as we don't have to use index
+
+for (let color of colors) {
   console.log(color);
+}
+
+  //break and continue
+
