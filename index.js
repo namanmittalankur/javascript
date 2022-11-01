@@ -331,3 +331,10 @@ const person2 = {
 
 for(let key in person2)
 console.log(key, person2[key]);
+
+//for off
+
+const colors =  ['red', 'blue', 'green'];
+
+for (let color of colors)
+  console.log(color);
