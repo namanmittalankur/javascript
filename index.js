@@ -348,3 +348,15 @@ for (let color of colors) {
 
   //break and continue
 
+  let i = 0;
+
+  while(1 <= 10) {
+    if (i === 5) break;
+    if (1 % 2 === 0) {
+        i++;
+        continue;
+    }
+    console.log(i);
+    i++;
+  }
+
